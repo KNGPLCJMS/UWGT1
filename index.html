@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UWGT1</title>
+</head>
+<body>
+    <h1>Untitled World Generation Tool</h1>
+    <canvas id="canvas" width="500" height="500"> </canvas>
+    <div>
+    <input type="range" min="5" max="25" id="inpX">
+    <input type="range" min="5" max="25" id="inpY">
+    </div>
+    
+    <button onclick="startwfcgenerate()">Generate using WFC</button>
+    <button onclick="startpergenerate()">Generate using Perlin Noise</button>
+    <script src="script.js"></script>
+</body>
+</html>

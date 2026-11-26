@@ -158,7 +158,7 @@ function pickWeighted(options, weight){
 }
 // Drawing Map
 function draw(map,x,y){
-    ctx.fillStyle = "#FFFFFF";
+    ctx.fillStyle = "rgb(76, 76, 76)";
     ctx.fillRect(0,0,500,500)
     for (let i =0; i<x; i++){
         for (let j = 0; j<y; j++){
